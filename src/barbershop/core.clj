@@ -13,7 +13,7 @@
   "Cut customer's hair."
   (dosync (commute empty-chairs inc))
   (debug "(b) cutting hair of customer" customer)
-  (Thread/sleep (+ 100 (rand-int 600)))
+  (Thread/sleep (+ 500 (rand-int 400)))
   (debug "(b) done cutting hair of customer" customer)
   (inc tally))
 
