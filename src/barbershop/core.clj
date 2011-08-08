@@ -1,5 +1,4 @@
 (ns barbershop.core)
-;; This is a new comment bla bla bla
 (def empty-chairs (ref 3))
 (def barber (agent 0))
 
